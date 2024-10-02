@@ -1,0 +1,137 @@
+<html>
+ <head>
+  <title>
+   TicketShare
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-cream text-gray-800">
+  <nav class="bg-gray-100 shadow-md">
+   <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <div class="text-xl font-bold">
+     TicketShare
+    </div>
+    <div class="space-x-4">
+     <a class="text-gray-800" href="#">
+      Home
+     </a>
+     <a class="text-gray-800" href="#">
+      My Tickets
+     </a>
+     <a class="bg-orange-500 text-white px-4 py-2 rounded" href="#">
+      Login/Signup
+     </a>
+    </div>
+   </div>
+  </nav>
+  <header class="container mx-auto px-4 py-8">
+   <div class="relative">
+    <img alt="Train in a scenic landscape" class="w-full rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/c830zUefEor430QcCr76xSMSUwKWhPYsTmFCiYNRFf2KFiFnA.jpg" width="800"/>
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
+     <h1 class="text-3xl font-bold mb-4">
+      Buy and sell tickets for trains and buses
+     </h1>
+     <div class="space-x-4">
+      <button class="bg-orange-500 px-4 py-2 rounded">
+       Sell My Ticket
+      </button>
+      <button class="bg-white text-gray-800 px-4 py-2 rounded">
+       Buy a Ticket
+      </button>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main class="container mx-auto px-4 py-8">
+   <h2 class="text-2xl font-bold mb-4">
+    Popular tickets
+   </h2>
+   <div class="space-y-8">
+    <div class="flex items-center justify-between">
+     <div>
+      <p class="text-gray-600">
+       Today, 8:00 PM
+      </p>
+      <h3 class="text-xl font-bold">
+       Hyderabad to Delhi
+      </h3>
+      <p class="text-gray-600">
+       Express
+      </p>
+      <p class="mt-2 text-gray-800">
+       Phone: +91 12345 67890
+      </p>
+     </div>
+     <img alt="Train on a snowy track" class="w-48 h-32 rounded-lg object-cover" src="https://storage.googleapis.com/a1aa/image/ZPplCfM5SpS5ZaShSq8SdBxaBrG7KNANNJpo4XODwvSThYxJA.jpg"/>
+    </div>
+    <div class="flex items-center justify-between">
+     <div>
+      <p class="text-gray-600">
+       Today, 10:00 PM
+      </p>
+      <h3 class="text-xl font-bold">
+       Mumbai to Goa
+      </h3>
+      <p class="text-gray-600">
+       Express
+      </p>
+      <p class="mt-2 text-gray-800">
+       Phone: +91 12345 67890
+      </p>
+     </div>
+     <img alt="Train tracks in a forest" class="w-48 h-32 rounded-lg object-cover" src="https://storage.googleapis.com/a1aa/image/XSwYXRFhS5agAxf5XowDRHGfGI0BZZhrEEmQyNz2nGFoCxiTA.jpg"/>
+    </div>
+    <div class="flex items-center justify-between">
+     <div>
+      <p class="text-gray-600">
+       Today, 11:00 PM
+      </p>
+      <h3 class="text-xl font-bold">
+       Bangalore to Chennai
+      </h3>
+      <p class="text-gray-600">
+       Express
+      </p>
+      <p class="mt-2 text-gray-800">
+       Phone: +91 12345 67890
+      </p>
+     </div>
+     <img alt="Train on tracks in a rural area" class="w-48 h-32 rounded-lg object-cover" src="https://storage.googleapis.com/a1aa/image/DwWZCMpYLi5UH9nfo3DfEM4AWWpBSwJBO0mtgRxQvALpCxiTA.jpg"/>
+    </div>
+   </div>
+  </main>
+  <footer class="bg-gray-100 py-4 mt-8">
+   <div class="container mx-auto px-4 flex flex-col items-center space-y-4">
+    <div class="space-x-4 flex">
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-linkedin">
+      </i>
+     </a>
+    </div>
+    <div class="text-gray-600">
+     &copy; 2023 TicketShare. All rights reserved.
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>

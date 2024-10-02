@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>TicketShare - Search Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .min-h-screen {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 border-b">
+        <div class="flex items-center space-x-2">
+            <i class="fas fa-ticket-alt text-xl"></i>
+            <span class="font-bold text-lg">TicketShare</span>
+        </div>
+        <nav class="flex space-x-4 items-center">
+            <a href="#" class="text-gray-800">Home</a>
+            <a href="#" class="text-gray-800 flex items-center">My Tickets</a>
+            <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded-full">Login/Signup</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-8 flex-grow">
+        <h1 class="text-3xl font-bold mb-6">Search Results</h1>
+        <div class="flex justify-end items-center mb-4">
+            <label for="sort" class="mr-2 flex items-center">Sort by:</label>
+            <select id="sort" class="border rounded px-2 py-1">
+                <option value="price">Price</option>
+                <option value="coach">Coach</option>
+            </select>
+        </div>
+        <div class="bg-[#f8f8f4] p-6 rounded-lg space-y-4">
+            <div class="flex justify-between items-center p-4 bg-[#f8f8f4] rounded-lg">
+                <div>
+                    <h2 class="font-bold">Hyderabad to Delhi</h2>
+                    <p>Express, Today, 8:00 PM, Price: $50, Coach: Sleeper</p>
+                </div>
+                <div class="bg-[#f0ede5] px-4 py-2 rounded-full">
+                    123-456-7890
+                </div>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-[#f8f8f4] rounded-lg">
+                <div>
+                    <h2 class="font-bold">Mumbai to Goa</h2>
+                    <p>Express, Today, 10:00 PM, Price: $40, Coach: AC</p>
+                </div>
+                <div class="bg-[#f0ede5] px-4 py-2 rounded-full">
+                    123-456-7890
+                </div>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-[#f8f8f4] rounded-lg">
+                <div>
+                    <h2 class="font-bold">Bangalore to Chennai</h2>
+                    <p>Express, Today, 11:00 PM, Price: $35, Coach: General</p>
+                </div>
+                <div class="bg-[#f0ede5] px-4 py-2 rounded-full">
+                    123-456-7890
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="p-8 bg-white text-center text-[#b36b47] mt-auto">
+        <div class="flex justify-center space-x-8 mb-4">
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2023 TicketShare</p>
+    </footer>
+</body>
+</html>

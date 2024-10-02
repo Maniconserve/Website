@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>TicketShare - My Tickets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .min-h-screen {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 border-b">
+        <div class="flex items-center space-x-2">
+            <i class="fas fa-ticket-alt text-xl"></i>
+            <span class="font-bold text-lg">TicketShare</span>
+        </div>
+        <nav class="flex space-x-4 items-center">
+            <a href="#" class="text-gray-800">Home</a>
+            <a href="#" class="text-gray-800 flex items-center">My Tickets</a>
+            <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded-full">Login/Signup</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-8 flex-grow">
+        <h1 class="text-3xl font-bold mb-6">My Tickets</h1>
+        <div class="bg-[#f8f8f4] p-6 rounded-lg space-y-4">
+            <table class="min-w-full bg-white">
+                <thead>
+                    <tr>
+                        <th class="py-2 px-4 border-b">PNR</th>
+                        <th class="py-2 px-4 border-b">SOURCE</th>
+                        <th class="py-2 px-4 border-b">DESTINATION</th>
+                        <th class="py-2 px-4 border-b">COACH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-[#f8f8f4] text-center">
+                        <td class="py-2 px-4 border-b">1234567890</td>
+                        <td class="py-2 px-4 border-b">Hyderabad</td>
+                        <td class="py-2 px-4 border-b">Delhi</td>
+                        <td class="py-2 px-4 border-b">Sleeper</td>
+                    </tr>
+                    <tr class="bg-[#f8f8f4] text-center">
+                        <td class="py-2 px-4 border-b">0987654321</td>
+                        <td class="py-2 px-4 border-b">Mumbai</td>
+                        <td class="py-2 px-4 border-b">Goa</td>
+                        <td class="py-2 px-4 border-b">AC</td>
+                    </tr>
+                    <tr class="bg-[#f8f8f4] text-center">
+                        <td class="py-2 px-4 border-b">1122334455</td>
+                        <td class="py-2 px-4 border-b">Bangalore</td>
+                        <td class="py-2 px-4 border-b">Chennai</td>
+                        <td class="py-2 px-4 border-b">General</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="p-8 bg-white text-center text-[#b36b47] mt-auto">
+        <div class="flex justify-center space-x-4 mb-4">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2023 TicketShare</p>
+    </footer>
+</body>
+</html>
